@@ -70,3 +70,34 @@ Login using API
 ```dash
     http://127.0.0.1:8000/dashboard/
 ```
+
+
+-
+-
+-
+
+# Live Test
+
+## User Authentication
+ For signup
+    http://shuvo001.pythonanywhere.com/accounts/signup/
+ 
+ Signup using API
+    http://shuvo001.pythonanywhere.com/api/auth/registration/
+ 
+For login
+    http://shuvo001.pythonanywhere.com/accounts/login/
+
+Login using API
+    http://shuvo001.pythonanywhere.com/api/auth/login/
+ 
+
+## REST API endpoints/routers
+  http://shuvo001.pythonanywhere.com/api/
+
+## Dashboard
+  http://shuvo001.pythonanywhere.com/dashboard/
+
+
+
+  # Thank you #
