@@ -42,3 +42,31 @@
  ```
 
 ## User Authentication
+ For signup
+ ```dash
+    http://127.0.0.1:8000/accounts/signup/
+ ```
+ Signup using API
+
+ ```dash
+    http://127.0.0.1:8000/api/auth/registration/
+ ```
+For login
+ ```dash
+    http://127.0.0.1:8000/accounts/login/
+ ```
+Login using API
+ 
+ ```dash
+    http://127.0.0.1:8000/api/auth/login/
+ ```
+
+## REST API endpoints/routers
+```dash
+    http://127.0.0.1:8000/api/
+```
+
+## Dashboard
+```dash
+    http://127.0.0.1:8000/dashboard/
+```
