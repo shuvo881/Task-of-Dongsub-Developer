@@ -9,6 +9,7 @@ from .api_views import (
     CartViewSet,
     OrderViewSet,
 )
+from .views import DashboardView
 
 router = routers.DefaultRouter()
 
@@ -23,5 +24,6 @@ router.register(r'carts', CartViewSet, basename='cart')
 router.register(r'orders', OrderViewSet, basename='order')
 
 urlpatterns = [
-    path('api/', include(router.urls))
+    path('api/', include(router.urls)),
+    path('dashboard/', DashboardView.as_view(), name='dashboard'),
 ]
